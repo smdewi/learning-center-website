@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.header .brand-name{
+  padding: 0 1em;
+}
+
+.header .brand-name a {
+  text-decoration: none;
+  font-size: 2em;
+  color:blue;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  transition: all 0.5s ease-in;
+}
+
+.header .nav{
+  padding: 0 1em;
+}
+
+.header .nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header .nav ul li {
+  display: inline-block;
+  margin-right: 3em;
+}
+
+.header .nav ul li a {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  color: black;
+  padding: 1.5em 0;
+  display: block;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-section {
+  min-height: 100vh;
+  background-image: url('./images/learning-img1.jpg');
+  background-size: cover;
+  background-position: center;
+}
