@@ -24,7 +24,7 @@ body {
 .header .brand-name a {
   text-decoration: none;
   font-size: 2em;
-  color:blue;
+  color:#008FFB;
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 2px;
@@ -50,7 +50,7 @@ body {
   text-decoration: none;
   font-size: 1em;
   font-weight: 600;
-  color: black;
+  color: #008FFB;
   padding: 1.5em 0;
   display: block;
 }
